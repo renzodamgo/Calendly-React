@@ -1,25 +1,26 @@
-import React, {useState} from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import { InlineWidget, PopupWidget, PopupButton } from "react-calendly";
 
 
-const CounterApp = ({value = 10})=>{
-  const [counter, setCounter] = useState(value);
+// const CounterApp = ({ value = 10 }) => {
+  const CounterApp = () => {
+  // const [counter, setCounter] = useState(value);
 
   // Sumar value
-  const handleAdd = (e)=>{
-    // console.log(e);
-    // setCounter(counter + 1);
-    setCounter((c)=> c + 1)
-  }
+  // const handleAdd = (e)=>{
+  //   // console.log(e);
+  //   // setCounter(counter + 1);
+  //   setCounter((c)=> c + 1)
+  // }
 
-  const handleSubstract = (e)=>{
-    setCounter((c)=> c - 1)
-  }
+  // const handleSubstract = (e)=>{
+  //   setCounter((c)=> c - 1)
+  // }
 
-  const handleReset = (e) => {
-    setCounter((c)=> c = value)
-  }
+  // const handleReset = (e) => {
+  //   setCounter((c)=> c = value)
+  // }
 
 
   return (
