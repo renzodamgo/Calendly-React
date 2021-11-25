@@ -1,10 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { InlineWidget, PopupWidget, PopupButton } from "react-calendly";
+import PropTypes from 'prop-types';
+import React from 'react';
+import { InlineWidget, PopupButton, PopupWidget } from "react-calendly";
 
 
 // const CounterApp = ({ value = 10 }) => {
-  const CounterApp = () => {
+const CounterApp = () => {
+  const script = document.createElement('script');
+
+  script.src = 'https://contacto78462.activehosted.com/f/embed.php?id=1';
+  script.async = true;
+
+  document.body.appendChild(script);
   // const [counter, setCounter] = useState(value);
 
   // Sumar value
@@ -25,16 +31,21 @@ import { InlineWidget, PopupWidget, PopupButton } from "react-calendly";
 
   return (
     <>
-      <h1>Demo Calendly y Active Campaign</h1>
-      <InlineWidget url="https://calendly.com/rebels247" />
-      <PopupWidget url="https://calendly.com/rebels247" />
-      <PopupButton url="https://calendly.com/rebels247"/>
+
+        <h1>Demo Calendly y Active Campaign</h1>
+        <InlineWidget url="https://calendly.com/rebels247" />
+        <PopupWidget url="https://calendly.com/rebels247" />
+        <PopupButton url="https://calendly.com/rebels247" text='Reserva con Nosotros'/>
+        <div className="_form_1" />
+
+
+    
     </>
 
   )
 }
 
-CounterApp.propTypes={
+CounterApp.propTypes = {
   value: PropTypes.number,
 }
 

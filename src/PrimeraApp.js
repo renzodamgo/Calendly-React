@@ -14,6 +14,7 @@ const PrimeraApp = ({saludo , subtitulo }) => {
 			{/* <!-- Principio del widget integrado de Calendly --> */}
 			<InlineWidget url="https://calendly.com/rebels247" />
 			{/* <!-- Final del widget integrado de Calendly --> */}
+			{/* <div class="_form_1"></div><script src="https://contacto78462.activehosted.com/f/embed.php?id=1" type="text/javascript" charset="utf-8"></script> */}
 		</>
 
 	);
